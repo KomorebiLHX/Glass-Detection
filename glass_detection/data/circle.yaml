@@ -1,0 +1,11 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../datasets/glass/circle/images/train
+val: ../datasets/glass/circle/images/val
+
+# number of classes
+nc: 2
+
+# class names
+
+names: ['body', 'mouth']
